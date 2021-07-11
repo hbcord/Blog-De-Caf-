@@ -164,3 +164,20 @@ main {
 .nosotros__texto p{
     font-size: 2rem;
 }
+
+/** CURSOS */
+.curso {
+    padding: 4rem 0;
+    border-bottom: 1px solid black;
+}
+.curso:last-of-type {
+    border-bottom: none;
+}
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 4rem;
+        border: none;
+    }
+}
