@@ -208,3 +208,7 @@ main {
     cursor: pointer;
 }
 
+/** ENTRADA */
+.entrada__informacion p{
+    font-size: 2rem;
+}
