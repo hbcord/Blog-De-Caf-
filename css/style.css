@@ -77,6 +77,9 @@ span {
 .bg-black {
     background-color: var(--negro);
 }
+.txt-align {
+    text-align: center;
+}
 
 /** HEADER */
 .header {
@@ -135,4 +138,18 @@ span {
 }
 .footer {
     margin-top: 5rem;
+}
+
+/** NOSOTROS */
+main {
+    padding: 5rem 0;
+}
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 4rem;
+    align-items: center;
+}
+.nosotros__texto p{
+    font-size: 2rem;
 }
