@@ -22,7 +22,7 @@
                  <nav class="barra__navegacion">
                      <a class="barra__enlace" href="nosotros.html">Nosotros</a>
                      <a class="barra__enlace" href="cursos.html">Cursos</a>
-                     <a class="barra__enlace" href="contacto.html">Contacto</a>
+                     <a class="barra__enlace" href="#">Contacto</a>
                  </nav>
             </div>
             <div class="header__texto">
@@ -31,19 +31,26 @@
             </div>
         </div>
     </header>
-
+    
     <main class="main contenedor">
-        <h2 class="txt-align">Sobre nosotros</h2>
-        <div class="nosotros">
-            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="nosotros.jpg">
-            <div class="nosotros__texto">
-                <p>
-                    Pellentesque lacus orci, mattis cursus est in, finibus sagittis mi. Sed iaculis elit et porta luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas lacinia est vitae eros posuere, non commodo justo viverra. Sed finibus id elit sit amet egestas. Nullam ac urna odio. Fusce vestibulum venenatis quam in scelerisque. Maecenas ultricies ultricies velit, non suscipit enim. Vivamus massa velit, lobortis fringilla laoreet in, suscipit vitae velit. Etiam at orci euismod magna rhoncus luctus. Curabitur viverra est ut elit gravida rutrum. Nullam eget viverra enim. Quisque vitae varius urna.
-                </p>
-                <p>
-                    Maecenas commodo erat ac elit elementum, ac eleifend arcu gravida. Donec commodo auctor augue, eget tempor dui fermentum in. Duis non enim vitae metus accumsan vehicula. Pellentesque egestas diam ut ante aliquet, sit amet fringilla odio interdum. In nec odio nec turpis faucibus sagittis. Sed quis tellus nec ante luctus aliquam sit amet vel mauris. Nunc vitae facilisis mauris, posuere tristique arcu. Praesent nisi urna, venenatis non laoreet
-                </p>
-            </div>
+        <h2 class="txt-align">Contacto</h2>
+        <div>
+            <img class="formulario_imagen" src="img/contacto.jpg" alt="contacto">
+            <form class="formulario" action="submit">
+                <div class="formulario__campo">
+                    <label for="txt__nombre">Nombre</label>
+                    <input id="txt__nombre" type="text" placeholder="Tu Nombre">
+                </div>
+                <div class="formulario__campo">
+                    <label for="txt__mail">E-mail</label>
+                    <input id="txt__mail" type="text" placeholder="Tu E-mail">
+                </div>
+                <div class="formulario__campo">
+                    <label for="txt__msg">Mensaje</label>
+                    <textarea id="txt__msg" cols="30" rows="10"></textarea>
+                </div>
+                <input class="formulario__enviar" type="submit" value="Enviar">
+            </form>
         </div>
     </main>
 
@@ -56,7 +63,7 @@
                  <nav class="barra__navegacion">
                      <a class="barra__enlace" href="nosotros.html">Nosotros</a>
                      <a class="barra__enlace" href="cursos.html">Cursos</a>
-                     <a class="barra__enlace" href="contacto.html">Contacto</a>
+                     <a class="barra__enlace" href="#">Contacto</a>
                  </nav>
             </div>
         </div>

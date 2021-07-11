@@ -181,3 +181,30 @@ main {
         border: none;
     }
 }
+
+/** CONTACTO */
+.formulario__imagen {
+    position: absolute;
+}
+.formulario {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: var(--blanco);
+    margin-top: -5rem;
+    padding: 3rem 4rem;
+}
+.formulario__campo {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-bottom: 1rem;
+}
+.formulario__enviar {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    color: var(--blanco);
+    background-color: var(--negro);
+    border: none;
+    cursor: pointer;
+}
+
